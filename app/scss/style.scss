@@ -1,0 +1,37 @@
+@import "vars";
+@import "fonts";
+@import "reset.scss";
+@import "libs.scss";
+@import "global";
+
+.header {
+}
+
+.main {
+  h1 {
+    &:nth-child(2) {
+      @extend %inter-300;
+    }
+    &:nth-child(3) {
+      @extend %inter-400;
+    }
+    &:nth-child(4) {
+      @extend %inter-500;
+    }
+    &:nth-child(5) {
+      @extend %inter-600;
+    }
+    &:nth-child(6) {
+      @extend %inter-700;
+    }
+  }
+}
+
+// ----------------------------------- FOOTER -------------------------
+
+.footer {
+}
+
+// ----------------------------------- FOOTER END ---------------------
+
+@import "media";
