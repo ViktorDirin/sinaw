@@ -4,25 +4,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Sinauw</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header"></header>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="images/logo.png" alt="logo image">
+                </div>
+                <div class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item header__menu-item--active">
+                            <a href="#" class="header__menu-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                Courses
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                Webinar
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">
+                                Pricing
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__options">
+                    <div class="header__lang-list">
+                        <select class="header__lang-select" name="lang-select" id="lang-select">
+                            <option class="header__lang-option" value="en" selected>English</option>
+                            <option class="header__lang-option" value="fr">French</option>
+                            <option class="header__lang-option" value="de">German</option>
+                            <option class="header__lang-option" value="it">Italian</option>
+                        </select>
+                    </div>
+                    <!-- <label for="lang__list">lang</label> -->
+
+                    <button class="header__options-btn main__btn">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main class="main">
-        <h1>Test Text Here</h1>
-        <h1>Font Text Here</h1>
-        <h1>Font Text Here</h1>
-        <h1>Font Text Here</h1>
-        <h1>Font Text Here</h1>
-        <h1>Font Text Here</h1>
+
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome__inner section__inner">
+                    <div class="welcome__image">
+                        <img class="welcome__image-img" src="images/welcome-bg.png" alt="welcome image">
+                        <img class="welcome__image-decor" src="images/decor.svg" alt="welcome decor">
+                    </div>
+                    <div class="welcome__descr">
+                        <h1 class="welcome__descr-title">
+                            Grow Your Skills To Advance Your Career Path.
+                        </h1>
+                        <p class="welcome__descr-text">
+                            We have something big for you who want to level up!
+                        </p>
+                        <div class="welcome__descr-search">
+                            <input class="welcome__descr-input" type="text" placeholder="Type To Search">
+                        </div>
+                        <p class="welcome__descr-text">
+                            Suggestions
+                        </p>
+                        <div class="welcome__descr-wraper">
+                            <p class="welcome__descr-item">UI UX Design</p>
+                            <p class="welcome__descr-item">CSS Fundamental</p>
+                            <p class="welcome__descr-item">3D Design Illustration</p>
+                            <p class="welcome__descr-item">Website Development</p>
+                            <p class="welcome__descr-item">Logo Design</p>
+                            <p class="welcome__descr-item">Icon Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <img class="footer__info-logo" src="images/logo.png" alt="sinauw logo">
+                    <p class="footer__info-text">Any feedback or questions?</p>
+                    <p class="footer__info-text">Contact us on our social media.</p>
+                    <div class="footer__info-social">
+                        <img class="footer__info-social-item" src="images/icons/facebook.svg" alt="facebook icon">
+                        <img class="footer__info-social-item" src="images/icons/twitter.svg" alt="twitter icon">
+                        <img class="footer__info-social-item" src="images/icons/instagram.svg" alt="instagram icon">
+                    </div>
+                </div>
+                <div class="footer__menu">
+                    <h2 class="footer__menu-title">
+                        Menu
+                    </h2>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Courses
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Webinar
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h2 class="footer__menu-title">
+                        Services
+                    </h2>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Materials Update
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Trusted Mentor
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Free E-book
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Meeting
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h2 class="footer__menu-title">
+                        Further Information
+                    </h2>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <h2 class="footer__menu-title">
+                        Apps Download
+                    </h2>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="https://play.google.com/" target="_blank">
+                                Google Play Store
+                            </a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="https://www.apple.com/app-store/" target="_blank">
+                                App Store
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                Copyright
+                <img class="footer__copy-img" src="images/icons/copyright.svg" alt="copyright icon">
+                2021 Sinauw. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
 
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/main.min.js"></script>
