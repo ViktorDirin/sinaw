@@ -19,11 +19,28 @@ main {
   padding: 0 15px;
 }
 
-.section__inner {
-  padding: 100px 0;
+.section {
+  &__inner {
+    padding: 100px 0;
+  }
+  &-title {
+    text-align: center;
+    @extend %inter-600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffffcc;
+    margin-bottom: 20px;
+  }
+  &-text {
+    text-align: center;
+    color: #ffffff66;
+    margin-bottom: 84px;
+  }
 }
 
 .main__btn {
+  display: block;
+  width: fit-content;
   color: #ffffff;
   padding: 12px 32px;
   font-size: 14px;
@@ -35,5 +52,10 @@ main {
   background: $accent;
   &:hover {
     cursor: pointer;
+  }
+  &--hollow {
+    color: $accent;
+    background-color: transparent;
+    border: 1px solid $accent;
   }
 }

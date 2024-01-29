@@ -8,7 +8,11 @@ const browserSync = require('browser-sync').create();
 const clean = require('gulp-clean');
 
 function scripts() {
-  return src('app/js/main.js')
+  return src([
+    'app/js/jquery.gallery.js',
+    'app/js/modernizr.custom.53451.js',
+    'app/js/main.js'
+  ])
     .pipe(concat('main.min.js'))
     .pipe(uglify())
     .pipe(dest('app/js'))
