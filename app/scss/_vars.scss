@@ -24,22 +24,6 @@ $bg: #171836;
   font-weight: 500;
 }
 
-// %btn{
-//     cursor: pointer;
-//     padding: 12px 36px;
-//     width: fit-content;
-//     text-transform: uppercase;
-//     color: #ffffff;
-//     @extend %roboto-400;
-//     background-color: $accent;
-//     border: 1px solid transparent;
-//     box-shadow: 7px 7px 20px #fe3e575e;
-//     &:hover {
-//             background-color: #ff0021;
-//             border: 1px solid #ffffff;
-//         }
-// }
-
 @function max($numbers...) {
   @return m#{a}x(#{$numbers});
 }
